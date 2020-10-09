@@ -442,7 +442,7 @@ class MainWindow(ttk.Frame):
      
    
 
-filename = './data/img_plg5.png'  # place path to your image here
+filename = 'Electrical_Energy_Prod_Cons.png'  # place path to your image here
 #filename = 'd:/Data/yandex_z18_1-1.tif'  # huge TIFF file 1.4 GB
 #filename = 'd:/Data/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg'
 #filename = 'd:/Data/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.tif'
@@ -460,7 +460,7 @@ filename = './data/img_plg5.png'  # place path to your image here
 #   app = MainWindow(tk.Tk(), path="/home/pi/Andromeda_application/tmp2/amount.png")
  
 #else:
-app = MainWindow(tk.Tk(), path="/home/pi/Desktop/download.jpeg")
+app = MainWindow(tk.Tk(), path="/home/raviy/Desktop/Download.jpg")
 
 
 app.mainloop()
