@@ -16,16 +16,17 @@
             "valueformat": ".0f",
             "valuesuffix": "TWh",
             "node": {
-                "pad": 15,
-                "thickness": 15,
+                "pad": 1,
+                "thickness": 25,
                 "line": {
                     "color": "black",
                     "width": 0.5
                 },
-                "label": [
+                "label": [                              
                     "Waste",
-                    "CHP:waste incineration,gas engines,wood gasiifcation",
+                    "CHP",
                     "Power grid",
+                    "Wood",
                     "District heating system",
                     "Oil",
                     "Oil boilers",
@@ -53,7 +54,7 @@
                     
                     ]
             },
-            "link": {
+"link": {
                 "source": [
                     0,  
                     1,
@@ -65,23 +66,22 @@
                     7,
                     8,
                     9,
-                    10,
-                    11
-                 
+                    10
+                    
                     
                 ],
                 "target": [
                     1,
-                    2,
-                    10,
-                    11,
-                    5,
+                    2,5,
                     11,
                     1,
+                    12,
                     7,
-                    9,
+                    12,
+                    1,9,
                     10,
-                    11
+                    12
+                    
                    
                 ],
                
@@ -119,8 +119,8 @@
         }],
     "layout": {
         "title": {"text": "Electricity from grid<br>Renewable electricity from Rosenheim"},
-        "width": 1118,
-        "height": 772,
+        "width": 800,
+        "height": 500,
         "font": {
             "size": 10
         },
